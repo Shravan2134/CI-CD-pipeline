@@ -15,7 +15,7 @@ jobs:
       - name: setup the python environment
         uses: actions/setup-python@v4
         with:
-          python-version: '3.9:alpine'
+          python-version: '3.9:latest'
 
       - name: install dependecies
         run: |
