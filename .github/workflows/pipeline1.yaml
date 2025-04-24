@@ -27,10 +27,10 @@ jobs:
           echo "Running tests..."
           echo "NO tests found"
 
-dockerize:
-  build:
-    runs-on: ubuntu-latest
-    steps:
+# dockerize:
+#   build:
+#     runs-on: ubuntu-latest
+#     steps:
       - name: checkout the code
         uses: actions/checkout@v2          
 
